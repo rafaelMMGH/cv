@@ -1,0 +1,210 @@
+{
+  "basics": {
+    "name": "Rafael Alberto Martínez Méndez",
+    "label": "Desarrollador Full Stack con más de 4 años de experiencia",
+    "image": "https://media.licdn.com/dms/image/C4E03AQGvSzKiAWJYjw/profile-displayphoto-shrink_200_200/0/1526348620182?e=2147483647&v=beta&t=7UY6b_mL3jWTuPif_3WFK68l-AeiWP_D8XTQvhdMXmA",
+    "email": "martinez_brg21@protonmail.com",
+    "phone": "+52 961 198 2289",
+    "summary": "Desarrollador de sistemas web utilizando una gama de tecnologías, como PHP, JavaScript C# y Visual Basic. Con conocimiento en el uso de herramientas  como SQL Server, PostgreSQL, MySQL, Git, Firebase, y más para garantizar una integración y funcionalidad sin problemas. Comprometido a ofrecer soluciones prácticas que mejoren la participación del usuario y optimicen el rendimiento.",
+    "location": {
+      "address": "",
+      "postalCode": "29070",
+      "city": "Tuxtla Gutiérrez",
+      "state": "Chiapas",
+      "countryCode": "MX",
+      "region": "México"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Rafael Alberto Martinez Mendez",
+        "url": "https://mx.linkedin.com/in/rafaelmmgh"
+      },
+      {
+        "network": "GitHub",
+        "username": "rafaelMMGH",
+        "url": "https://github.com/rafaelMMGH"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CAPI ",
+      "isRemote": true,
+      "position": "Desarrollador Web Full Stack",
+      "url": "https://capi.lat",
+      "startDate": "2022-03-01",
+      "endDate": null,
+      "summary": "",
+      "highlights": [
+        "Dar soporte y mantenimiento al sistema CRM para la venta de unidades residenciales y comerciales en México y partes de Sudamérica.",
+        "Creación de formatos para uso de clientes.",
+        "Creación y mejoras de módulos para mejorar la comprensión de datos del sistema.",
+        "Optimización de consultas a la base de datos para reducir considerablemente los tiempos de carga."
+      ]
+    },
+    {
+      "name": "Universidad Maya",
+      "isRemote": false,
+      "position": "Desarrollador Web Full Stack",
+      "url": "https://www.universidadmaya.edu.mx",
+      "startDate": "2019-07-01",
+      "endDate": "2021-10-01",
+      "summary": "",
+      "highlights": [
+        "Administración de sistemas institucionales para operaciones eficientes.",
+        "Mejora e implementación de un sistema de pago en línea para estudiantes en todos los campus, atendiendo a más de 8,000 estudiantes.",
+        "Mejora e implementación de un sistema de facturación para administradores, estableciendo interconexión con otros sistemas.",
+        "Garantía de mejora continua de procesos virtuales para una mayor eficiencia.",
+        "Diseño y desarrollo de sistemas para optimizar procesos institucionales para una mayor eficiencia.",
+        "Gestión de copias de seguridad y servidores para mantener la integridad y rendimiento del sistema."
+      ]
+    },
+    {
+      "name": "iGob Technologies",
+      "isRemote": false,
+      "position": "Desarrollador Web Full Stack",
+      "startDate": "2018-07-01",
+      "endDate": "2019-01-01",
+      "summary": "Diseño e implementación de un sistema para la gestión de adquisición de recursos públicos, proporcionando a los usuarios información en tiempo real accesible a través de su sitio web y aplicación móvil."
+    },
+    {
+      "name": "UVM – Recopilación de Datos de Encuestas",
+      "isRemote": false,
+      "position": "Desarrollador Web Full Stack",
+      "url": "https://uvm.mx",
+      "startDate": "2017-12-01",
+      "endDate": "2018-06-01",
+      "summary": "",
+      "highlights": [
+        "Desarrollo e implementación de un portal web receptivo que permitiera el diseño, generación y publicación de encuestas para más de dos mil estudiantes.",
+        "Generación de informes exhaustivos sobre encuestas para administradores, con gráficos y opciones de descarga en formatos CSV o XLS.",
+        "Diseño de varios tipos de preguntas con flujos únicos para mejorar la precisión del proceso de evaluación.",
+        "Implementación de operaciones masivas para manejar procesos en segundo plano para enviar miles de correos electrónicos.",
+        "Administración de archivos CSV para la creación de usuarios."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de Tuxtla Gutiérrez",
+      "degree": "Licenciatura en Ingeniería en Sistemas Computacionales",
+      "studyType": "Licenciatura",
+      "startDate": "2013-08-01",
+      "endDate": "2017-12-01"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Gestión de Proyectos Ágiles con SCRUM",
+      "date": "2019-08-01",
+      "issuer": "Empresa"
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "level": "Experto"
+    },
+    {
+      "name": "Laravel",
+      "level": "Experto"
+    },
+    {
+      "name": "C#",
+      "level": "Experto"
+    },
+    {
+      "name": "ASP.NET",
+      "level": "Experto"
+    },
+    {
+      "name": "HTML",
+      "level": "Experto"
+    },
+    {
+      "name": "CSS",
+      "level": "Experto"
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Experto"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Angular",
+      "level": "Experto"
+    },
+    {
+      "name": "React",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado"
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado"
+    },
+    {
+      "name": "SQL Server",
+      "level": "Experto"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Experto"
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado"
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Hablante nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Avanzado"
+    }
+  ],
+  "references": [
+    {
+      "name": "Juan Carlos Lopez Pimentel",
+      "reference": "Líder de Proyecto"
+    },
+    {
+      "name": "Andres Gallegos Vázquez",
+      "reference": "Líder de Proyecto y Analista"
+    }
+  ],
+  "projects": [
+    {
+      "name": "PayBits",
+      "html_url": "",
+      "description": "",
+      "position": "Desarrollador Web Full Stack",
+      "created_at": "2018-06-01",
+      "endDate": "2018-07-01",
+      "topics": [
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+---
+import Section from "../Section.astro";
+
+import { work } from "@/cv-spanish.json";
+---
+
+<Section title="Experiencia">
+  <ul>
+    {
+      work.map(({ name, position, url, startDate, endDate, summary, highlights, isRemote }) => {
+        const startYear = new Date(startDate).getUTCFullYear();
+        const endYear =
+          endDate !== null ? new Date(endDate).getUTCFullYear() : "Present";
+        const years = `${startYear} - ${endYear}`;
+
+
+        console.log(endDate)
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <section>
+                    <h3>
+                      <a href={url}>{name}</a>
+                    </h3>
+                    {isRemote === true && <span>Remote</span>}
+                  </section>
+                  <h4>{position}</h4>
+                </div>
+
+                <time>{years}</time>
+              </header>
+              <footer>
+                <p>{summary}</p>
+                  {
+                    highlights && highlights.map((highlight) => {
+                      return (
+                        <p class="highlights">	• {highlight}</p>
+                      );
+                    })
+                  }
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+
+  article h3{
+    font-size: inherit;
+    color: #111;
+    line-height: 1;
+    font-weight: 600;
+    -moz-column-gap: .25rem;
+    column-gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin: 0;
+    font-size: inherit;
+}
+
+  article h3 a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 0.875rem;
+    margin-block: 8.5px;
+    font-family:
+      ui-monospace,
+      SFMono-Regular,
+      Menlo,
+      Monaco,
+      Consolas,
+      Liberation Mono,
+      Courier New,
+      monospace;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+  }
+
+  section {
+    display: flex;
+  }
+
+  section span {
+    margin-left: 10px;
+    font-size: 0.85rem;
+    color: #111827;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    vertical-align: middle;
+    padding: 0.125rem 0.5rem;
+    background-color: #f3f4f6;
+    border-radius: 7px;
+  }
+
+  footer p, .highlights {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    text-wrap: pretty
+  }
+</style>
